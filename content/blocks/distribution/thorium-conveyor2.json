@@ -1,0 +1,17 @@
+{
+    "type": "Conveyor",
+    "name": "Thorium Conveyor 2",
+  "description": "Faster than a Thorium Conveyor.",
+    "category": "distribution",
+    "health": 1000,
+    "speed": 3.0,
+    "displayedSpeed": 300,
+    "junctionReplacement": "thorium-junction",
+    "bridgeReplacement": "thorium-bridge",
+    "requirements": [
+        {"item": "thorium", "amount": 10},
+        {"item": "silicon", "amount": 10},
+        {"item": "graphite", "amount": 10}
+    ],
+    "research": "titanium-conveyor"
+  }

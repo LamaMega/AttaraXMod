@@ -1,0 +1,35 @@
+{
+    "name": "Plastanium Drill",
+    "description": "Stronk Drill.",
+    "type": "Drill",
+    "size": 4,
+    "liquidCapacity": 300,
+    "tier": 5,
+    "drillTime": 25,
+    "conductivePower": true,
+    "consumes": {
+    "power": 3,
+      "liquid": {
+        "liquid": "water",
+        "amount": 0.07,
+        "optional": true,
+        "booster": true
+      }
+    },
+    "requirements": [
+      {
+        "item": "titanium",
+        "amount": 150
+      },
+      {
+        "item": "thorium",
+        "amount":100
+      },
+      {
+        "item": "plastanium",
+        "amount": 75
+      }
+    ],
+    "category": "production",
+    "research": "titanium-conveyor"
+  }

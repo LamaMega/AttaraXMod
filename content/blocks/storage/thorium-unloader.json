@@ -1,0 +1,16 @@
+{
+    "type": "Unloader",
+    "name": "Thorium Unloader",
+	"description": "Stronger and faster than the standard Unloader.",
+    "category": "effect",
+    "health": 350,
+    "buildCostMultiplier": 3,
+    "speed": 0.5,
+    "requirements": [
+        {"item": "silicon", "amount": 120},
+        {"item": "thorium", "amount": 60},
+        {"item": "titanium", "amount": 50},
+        {"item": "plastanium", "amount": 35}
+    ],
+    "research": "unloader"
+}

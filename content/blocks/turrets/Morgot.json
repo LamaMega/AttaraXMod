@@ -1,0 +1,48 @@
+{
+    "name": "Morgot",
+    "type": "ItemTurret",
+    "health": 2000,
+    "size": 3,
+    "reload": 20,
+    "shake": 4,
+    "range": 260,
+    "rotateSpeed": 5,
+    "recoil": 1,
+    "shootSound": "Turrets/PolskiLaser",
+    "shootCone": 8,
+    "shoot":{
+        "type": "ShootSpread",
+        "shots": 1,
+        "spread": 0
+        },
+    "ammoTypes": {
+        "titanium": {
+            "type": "ShrapnelBulletType",
+            "length": 300,
+            "damage": 120,
+            "ammoMultiplier": 4,
+            "width": 16,
+            "reloadMultiplier": 1.5
+        },
+        "thorium": {
+            "type": "ShrapnelBulletType",
+            "length": 300,
+            "damage": 300,
+            "ammoMultiplier": 5,
+            "width": 18,
+            "toColor": "ec6fff",
+            "shootEffect": "thoriumShoot",
+            "smokeEffect": "thoriumShoot"
+        }
+    },
+    "category": "turret",
+    "research": "thorium-conveyor",
+    "requirements": [    
+        "copper/255",
+        "lead/55",
+        "graphite/100",
+        "titanium/35",
+        "silicon/50",
+        "thorium/75"
+    ]
+}

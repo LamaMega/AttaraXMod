@@ -1,0 +1,30 @@
+{
+    "type": "GenericCrafter",
+    "name": "Trade Terminal Graphite",
+    "description": "Trades Copper and Lead for Coal",
+    "size": 3,
+    "outputItem": {"item": "coal", "amount": 1},
+    "hasPower": true,
+    "hasLiquids": false,
+    "craftTime": 10,
+    "consumes": {
+        "power": 0.5,
+        "items": {
+            "items": [
+                { "item": "copper", "amount": 2 },
+                {"item":"lead", "amount": 2}
+            ],
+            "optional": false
+        }
+    },
+    "requirements":[
+        { "item": "copper", "amount": 1000 }
+    ],
+    "category": "effect",
+    "research": {
+		parent: lead-conveyor
+		requirements: [
+			copper/500
+		]
+	}
+}

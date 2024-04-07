@@ -1,0 +1,17 @@
+{
+    "type": "Junction",
+    "name": "Thorium Junction",
+	"description": "Stronger and faster than the standard Junction.",
+    "category": "distribution",
+    "health": 300,
+    "buildCostMultiplier": 3,
+    "speed": 1,
+    "capacity": 50,
+    "requirements": [
+        {"item": "copper", "amount": 2},
+        {"item": "lead", "amount": 2},
+        {"item": "titanium", "amount": 2},
+        {"item": "thorium", "amount": 5}
+    ],
+    "research": "thorium-router"
+}

@@ -1,0 +1,28 @@
+type: ConsumeGenerator
+name: Diesel Engine
+size: 1
+hasPower: true
+hasItems: true
+powerProduction: 3
+itemDuration: 200
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawWarmupRegion
+    }
+  ]
+}
+consumes: {
+  itemFlammable: {}
+//  itemExplode: {}
+}
+category: power
+research: combustion-generator
+requirements: [
+  copper/250
+  lead/200
+]

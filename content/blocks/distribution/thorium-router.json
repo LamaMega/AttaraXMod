@@ -1,0 +1,15 @@
+{
+    "type": "Router",
+    "name": "Thorium Router",
+	"description": "Stronger and faster than the standard Router.",
+    "category": "distribution",
+    "health": 200,
+    "speed": 0.01,
+    "requirements": [
+        {"item": "copper", "amount": 3},
+        {"item": "lead", "amount": 3},
+        {"item": "titanium", "amount": 3},
+        {"item": "thorium", "amount": 5}
+    ],
+    "research": "thorium-conveyor"
+}

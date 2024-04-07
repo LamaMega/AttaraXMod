@@ -1,0 +1,18 @@
+{
+    "type": "Turret",
+    "name": "Babomiri",
+    "description": "Ai esh",
+    "size": 2,
+    "maxAmmo": 50,
+    "ammoPerShot" : 1,
+    "targetAir":true,
+    "targetGround": true,
+    "playerControllable": true,
+    "range": 120,
+    "rotateSpeed": 7.2,
+    "hasItems":true
+    
+    
+    
+
+}

@@ -1,0 +1,32 @@
+{
+    "type": "OverdriveProjector",
+    "name": "Extreme Overdriver",
+    "description": "Stronk Overdriver",
+    "size": 3,
+    "category" : "effect",
+    "health" : 1000,
+    "conductivePower": true,
+    "hasBoost": true,
+    "range" : 250,
+    "speedBoost": 3,
+    "consumesPower": true,  
+    "consumes": {
+        "power": 30
+    },
+    "requirements": [
+        {
+          "item": "titanium",
+          "amount": 150
+        },
+        {
+          "item": "thorium",
+          "amount":100
+        },
+        {
+          "item": "plastanium",
+          "amount": 75
+        }
+      ],
+      "research": "plastanium-drill"
+
+}

@@ -1,0 +1,29 @@
+{
+    "type": "ConsumeGenerator",
+    "localizedName": "Diesel Engeine",
+    "researchCostMultiplier": 0.15,
+    "description": "Uses Coal to make Pover",
+    "displayEfficiency": true,
+    "minEfficiency": 1,
+    "health": 500,
+    "size": 1,
+    "powerProduction": 4,
+    "itemCapacity": 50,
+    "drawer": {
+      "type": "DrawMulti",
+      "drawers": [
+        {
+          "type": "DrawDefault"
+        },
+        {
+          "type": "DrawGlowRegion"
+        }
+      ]
+    },
+    "consumes": {
+        "itemFlammable": {}
+    },
+    "category": "power",
+    "research": "combustion-generator"  
+  }
+  
