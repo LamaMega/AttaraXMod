@@ -1,0 +1,22 @@
+{
+    "type": "GenericCrafter",
+    "name": "Graphitus",
+    "description": "More Graphitus",
+    "size": 2,
+    "consumes": {
+      "items": [
+        {"item": "coal", "amount": 2}
+      ]
+    },
+    "craftTime": 44,
+    "outputItems": [
+      {"item" : "graphite", "amount": 2}
+    ],
+    "requirements": [
+        {"item": "copper", "amount": 100},
+        {"item": "lead", "amount": 100},
+        {"item": "titanium", "amount": 50},
+        {"item": "thorium", "amount": 100}
+    ],
+    "research": "thorium-drill"
+}
